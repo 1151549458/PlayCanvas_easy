@@ -1,0 +1,11 @@
+#calendar {
+    position: absolute;
+    margin: 15px 15px 2px 2px;
+    background-color: #337AB7;
+    color: #fff;
+    font-weight: 100;
+    border-radius:6px;
+    padding: 8px;
+    display:none; 
+    box-shadow: 0 0 16px rgba(0, 0, 0, .3);
+}
