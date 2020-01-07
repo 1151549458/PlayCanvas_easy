@@ -6,9 +6,10 @@
 - GlobalEventMgr事件管理者，针对事件Id进行处理。
 ### CameraControl
 - OrbitCamera摄像机对物体的逻辑。
-- MouseInput处理摄像机鼠标事件
-- TouchInput处理摄像机触摸事件
+- MouseInput处理摄像机鼠标事件。
+- TouchInput处理摄像机触摸事件。
 - CameraHandle处理摄像机角度以及移动的一些条件。
+- fxaa摄像机处理抗锯齿。
 ### UIControl
 - Uicontrol主要实现对UI事件的处理，并实现调用处理模型的逻辑。
 ### ModelControl
