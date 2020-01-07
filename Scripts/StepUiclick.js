@@ -21,9 +21,10 @@ StepUiclick.attributes.add("eventIndex_listen", {
 });
 // initialize code called once per entity
 StepUiclick.prototype.initialize = function() {
-     this.entity.element.on('touchstart', this.onStateChange, this); 
+    this.entity.element.on('touchstart', this.onUIChangeClick, this); 
+    this.entity.element.on("mousedown",this.onUIChangeClick, this);//  
 }; 
-StepUiclick.prototype.onStateChange = function(t)
+StepUiclick.prototype.onUIChangeClick = function(t)
 {
     console.log("点击到UI "+this.eventName +" " +this.eventIndex_listen);
     GameMain.EvtMgr.fire(this.eventName, this.eventIndex_listen); 
